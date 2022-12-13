@@ -1,0 +1,136 @@
+	body{
+		background-color: white;
+	}
+	a:hover{
+			color: yellow;
+		}
+	/*a:visited{
+			color: red;
+		}*/
+	a:active{
+			color: blue;
+		}
+		/*background image css*/
+	.container{
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(../images/product_bg_container.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		/*nav css*/
+		.nav{
+			text-align: center;
+			background-color: #42455a;
+			padding: 5px;
+		}
+		.nav ul{
+			display: inline-flex;
+		}
+		.nav ul li{
+			list-style-type: none;
+			padding: 15px;
+			cursor: pointer;
+			font-size: 20px;
+			font-family: sans-serif;
+			color: white;
+		}
+		.selected{
+			text-decoration: none;
+			color: white;
+		}
+		.search{
+			text-align: center;
+		}
+		.inpt{
+			width: 50%;
+			padding: 10px;
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		.srch{
+			width: 10%;
+			padding: 10px;
+			font-size: 20px;
+			background-color: blueviolet;
+			color: white;
+			cursor: pointer;
+		}
+		.image{
+			margin-top: 2%;
+			text-align: center;
+			cursor: pointer;
+		}
+		.dir{
+			color: #de7ca7;
+			font-size: 20px;
+		}
+		/*product css*/
+		.row{
+			display: flex;
+		}
+		.left,.left-middle,.right-middle,.right{
+			flex: 275px;
+			margin: 10px;
+		}
+		.left_product{
+			background-color: #F7CAC9;
+			border-radius: 50px;
+		}
+		.left_middle_product{
+			background-color:  #92A8D1;
+			border-radius: 50px;
+		}
+		.right_middle_product{
+			background-color: #7FCDCD;
+			border-radius: 50px;
+		}
+		.right_product{
+			background-color: #b5e7a0;
+			border-radius: 50px;
+		}
+		.pic{
+			padding: 30px;
+		}
+		.price{
+			text-align: center;
+		}
+		.btn{
+			padding: 15px;
+			text-align: center;
+		}
+		.cart{
+			background-color: #34eb6e;
+			cursor: pointer;
+		}
+		.buy{
+			width: 35%;
+			background-color: #eb8034;
+			cursor: pointer;
+		}
+		/*footer*/
+		.footer{
+			display: flex;
+			background-color: #42455a;
+			color: white;
+			margin-top: 30px;
+		}
+		.left_f{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.middle_f{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.right_f{
+			flex: 300px;
+		}
+		.circle{
+			border-radius: 50%;
+		}

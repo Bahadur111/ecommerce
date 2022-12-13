@@ -1,0 +1,101 @@
+		/*body color*/
+		body{
+			/*
+			background-color: #42455a;*/
+		}
+		/*link color*/
+		a:hover{
+			color: yellow;
+		}
+		/*a:visited{
+			color: red;
+		}*/
+		a:active{
+			color: blue;
+		}
+		/*container color*/
+		.container{
+			background-color: #42455a;
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		/*nav css*/
+		.nav{
+			text-align: center;
+			background-color: #42455a;
+			padding: 5px;
+		}
+		.nav ul{
+			display: inline-flex;
+		}
+		.nav ul li{
+			list-style-type: none;
+			padding: 15px;
+			cursor: pointer;
+			font-size: 20px;
+			font-family: sans-serif;
+			color: white;
+		}
+		.selected{
+			text-decoration: none;
+			color: white;
+		}
+		.search{
+			text-align: center;
+			background-color: #42455a;
+		}
+		/*search field css*/
+		.inpt{
+			width: 50%;
+			padding: 10px;
+			font-size: 20px;
+		}
+		.srch{
+			width: 10%;
+			padding: 10px;
+			font-size: 20px;
+			background-color: blueviolet;
+			color: white;
+			cursor: pointer;
+		}
+		.content{
+			width: 900px;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+		}
+		.content-text{
+			flex: 450px;
+			margin-top: 180px;
+		}
+		.content-img{
+			flex: 450px;
+			margin-top: 130px;
+			cursor: pointer;
+		}
+		/*footer css*/
+		.footer{
+			display: flex;
+			margin-top: 40px;
+			background-color: skyblue;
+			opacity: 0.6;
+		}
+		.left{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.middle{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.right{
+			flex: 300px;
+		}
+		.circle{
+			border-radius: 50%;
+		}

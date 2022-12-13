@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="we provide latest electronic Gadgets with good customer serivce">
+	<meta name="keywords" content="Mobiles,Laptops,Routers,T.V,Digital Watch">
+	<meta name="author" content="Tuk Bahadur Kumhal">
+	<meta http-equiv="refresh" content="200">
+	<title>Product Page</title>
+	<!--External CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/product.css">
+</head>
+<body>
+	<div class="container">
+		<!--Navigation Bar-->
+		<div class="nav">
+			<ul>
+				<li><a class="selected" href="home.html">Home</a></li>
+				<li><a class="selected" href="products.html">Products</a></li>
+				<li><a class="selected" href="blog.html">Blog</a></li>
+				<li><a class="selected" href="research.html">Research</a></li>
+				<li><a class="selected" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<!--search content-->
+		<div class="search">
+			<form name="formValidation" onsubmit="form()" method="post">
+				<input type="text" name="empty" class="inpt" placeholder="search">
+				<input type="submit" name="click" class="srch" value="Search">
+			</form>
+		</div>
+		<div class="image">
+			<!--toogle image-->
+			<img src="" id="image" width="200px" height="150px" alt="offer">
+			<!--text moving right to left-->
+			<marquee class= "dir">Discount 20% on Gaming Laptops</marquee>
+		</div>
+		<h2>Latest Gadgets</h2>
+		<!--Time for offer-->
+		<div>
+			<table>
+				<th style="font-size: 20px; padding: 10px;">A Month Offer: </th>
+				<th>Days:</th>
+				<th id="day" style="background-color: skyblue; width: 25px;"></th>
+				<th>Hours:</th>
+				<th id="hour" style="background-color: skyblue; width: 25px;"></th>
+				<th>Minutes:</th>
+				<th id="minute" style="background-color: skyblue; width: 25px;"></th>
+				<th>Seconds:</th>
+				<th id="second" style="background-color: skyblue; width: 25px;"></th>
+			</table>
+		</div>
+		<hr noshade="noshade" size="5">
+		<!--first row of product-->
+		<div class="row">
+			<!--1st column-->
+			<div class="left">
+				<div class="left_product">
+				<h2 style="text-align: center;">Acer Nitro 5</h2>
+				<img class="pic" src="../images/acer.jpg" width="200px" height="150px" alt="acer">
+				<h3 class="price">Rs 1,20,000</h3>
+				<p>Nitro 5 Ryzen 5 Hexa Core 4600H - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650) AN515-44/ AN515-44-R9QA / AN515-44-R8VS Gaming Laptop</p>
+				<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--2nd column-->
+			<div class="left-middle">
+				<div class="left_middle_product">
+					<h2 style="text-align: center;">Legion 5</h2>
+					<img class="pic" src="../images/lenovo.jpg" width="200px" height="150px" alt="lenovo">
+					<h3 class="price">Rs 1,90,000</h3>
+					<p>Lenovo Legion 5 Core i7 10th Gen - (16 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA GeForce GTX 1650/120 Hz) 15IMH05 Gaming Laptop  (15.6 Inch, Phantom Black, 2.3 KG)</p>
+					<div class="btn">
+						<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+			</div>
+			</div>
+			<!--3rd column-->
+			<div class="right-middle">
+				<div class="right_middle_product">
+					<h2 style="text-align: center;">Macbook Pro</h2>
+					<img class="pic" src="../images/mac.jpg" width="200px" height="150px" alt="macbook">
+					<h3 class="price">Rs 5,00,000</h3>
+					<p>APPLE Macbook Pro M1 Pro Chip (10-core CPU and 16-core GPU) <br>M1 Pro - (16 GB/1 TB SSD/Mac OS Monterey) MK193HN/A  (16.2 inch, Space Grey, 2.1 kg),very portable to carry</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--4th column-->
+			<div class="right">
+				<div class="right_product">
+					<h2 style="text-align: center;">Hp Omen 15</h2>
+					<img class="pic" src="../images/hp.jpg" width="200px" height="150px" alt="hp">
+					<h3 class="price">Rs 2,00,000</h3>
+					<p>HP OMEN 15 Ryzen 7 Octa Core 5800H - (16 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce RTX 3070/165 Hz) 15-en1037AX Gaming Laptop  (15.6 inch, Mica Silver, 2.37 Kg)</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--second row of product-->
+		<div class="row">
+			<!--1st column-->
+			<div class="left">
+				<div class="left_product">
+					<h2 style="text-align: center;">Asus ROG Phone 5</h2>
+					<img class="pic" src="../images/asus.jpg" width="200px" height="150px" alt="asus">
+					<h3 class="price">Rs 95,000</h3>
+					<p>ASUS ROG Phone 5 (Black, 256 GB),(12 GB RAM),17.22 cm (6.78 inch) Full HD+ Display
+					64MP + 13MP + 5MP | 24MP Front Camera,
+					6000 mAh Lithium Polymer Battery,
+					Qualcomm Snapdragon 888 (SM8350) Processor</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--2nd column-->
+			<div class="left-middle">
+				<div class="left_middle_product">
+					<h2 style="text-align: center;">Lenovo Legion Phone</h2>
+					<img class="pic" src="../images/leno.jpg" width="200px" height="150px" alt="lenovo mobile">
+					<h3 class="price">Rs 90,000</h3>
+					<p>Lenovo Legion Phone Duel(Blazing Blue, 256 GB),(12 GB RAM),17.22 cm (6.78 inch) Full HD+ Display
+					64MP + 13MP + 5MP | 24MP Front Camera,
+					5000 mAh Lithium Polymer Battery,
+					Qualcomm Snapdragon 865 (SM8250) Processor</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--3rd column-->
+			<div class="right-middle">
+				<div class="right_middle_product">
+					<h2 style="text-align: center;">Nubia Red Magic 5G</h2>
+					<img class="pic" src="../images/nubia.jpg" width="200px" height="150px" alt="nubia">
+					<h3 class="price">Rs 80,000</h3>
+					<p>Nubia Red Magic 5G (8 GB RAM | 128 GB ROM)
+					16.76 cm (6.6 inch) Full HD Display
+					48MP Rear Camera | 16MP Front Camera
+					5000 mAh Li-ion Polymer Battery
+					Qualcomm Snapdragon 855 Processor</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--4th column-->
+			<div class="right">
+				<div class="right_product">
+					<h2 style="text-align: center;">Galaxy S21 Ultra</h2>
+					<img class="pic" src="../images/samsung.jpg" width="200px" height="150px" alt="SamSung">
+					<h3 class="price">Rs 1,2000</h3>
+					<p> SamSung Galaxy S21 Ultra(12 GB RAM | 128 GB ROM ) Expandable Upto 1 TB
+					17.53 cm (6.9 inch) Quad HD+ Display
+					108 MP + 48 MP + 12 MP + VGA Depth Camera | 40MP Front Camera,5000 mAh Lithium-ion Battery
+					Exynos 990 Processor</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--3rd row of product-->
+		<div class="row">
+			<!--1st column-->
+			<div class="left">
+				<div class="left_product">
+					<h2 style="text-align: center;">Tp-link</h2>
+					<img class="pic" src="../images/tp_link1.jpg" width="200px" height="150px" alt="tp_link">
+					<h3 class="price">Rs 2500</h3>
+					<p>Wireless Without Modem,
+					300 Mbps Speed,
+					Frequency: 2.4 GHz,
+					External Antenna</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--2nd column-->
+			<div class="left-middle">
+				<div class="left_middle_product">
+					<h2 style="text-align: center;">Asus</h2>
+					<img class="pic" src="../images/asus1.jpg" width="200px" height="150px" alt="asus">
+					<h3 class="price">Rs 5000</h3>
+					<p>Wireless With Modem,
+					3200 Mbps Speed,
+					Frequency: 2.4 GHz, 5 GHz,
+					External Antenna</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--3rd column-->
+			<div class="right-middle">
+				<div class="right_middle_product">
+					<h2 style="text-align: center;">Tenda</h2>
+					<img class="pic" src="../images/tenda1.jpg" width="200px" height="150px" alt="tenda">
+					<h3 class="price">Rs 3000</h3>
+					<p>Wireless Without Modem
+					1200 Mbps Speed
+					Frequency: 5 GHz, 2.4 GHz
+					External Antenna</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--4th column-->
+			<div class="right">
+				<div class="right_product">
+					<h2 style="text-align: center;">Dlink</h2>
+					<img class="pic" src="../images/dlink1.jpg" width="200px" height="150px" alt="dlink">
+					<h3 class="price">Rs 2700</h3>
+					<p>Wireless Without Modem,
+					750 Mbps Speed |
+					Frequency: 2.4 GHz, 5 GHz|
+					External Antenna</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--4th row of product-->
+		<div class="row">
+			<!--1st column-->
+			<div class="left">
+				<div class="left_product">
+					<h2 style="text-align: center;">Evolves</h2>
+					<img class="pic" src="../images/watch1.jpg" width="200px" height="150px" alt="watch">
+					<h3 class="price">Rs 5500</h3>
+					<p>Touchscreen |
+					Fitness & Outdoor, Notifier, Health & Medical, Watchphone, Safety & Security |
+					Battery Runtime: Upto 3 days</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--2nd column-->
+			<div class="left-middle">
+				<div class="left_middle_product">
+					<h2 style="text-align: center;">DIZO Watch 2</h2>
+					<img class="pic" src="../images/watch2.jpg" width="200px" height="150px" alt="watch">
+					<h3 class="price">Rs 4000</h3>
+					<p>4.3cm (1.69") Bright Full Touch Screen |
+					Water Resistance |
+					10-Day Battery Life |
+					100+ Stylish Watch Faces |
+					Touchscreen</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--3rd column-->
+			<div class="right-middle">
+				<div class="right_middle_product">
+					<h2 style="text-align: center;">OnePlus Android TV</h2>
+					<img class="pic" src="../images/tv1.jpg" width="200px" height="150px" alt="T.V">
+					<h3 class="price">Rs 50,000</h3>
+					<p>Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube,Operating System: Android,Resolution: Full HD</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+			<!--4th column-->
+			<div class="right">
+				<div class="right_product">
+					<h2 style="text-align: center;">Candes</h2>
+					<img class="pic" src="../images/tv2.jpg" width="200px" height="150px" alt="T.V">
+					<h3 class="price">Rs 25,000</h3>
+					<p>Supported Apps: Netflix|Prime Video|Disney+Hotstar|Youtube,Operating System: Android,Resolution: Full HD</p>
+					<div class="btn">
+					<form>
+						<button type="botton" class="cart" onclick="cart()">Add to Cart</button>
+						<button type="botton" class="buy" onclick="buy()">Buy</button>
+					</form>
+				</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="left_f">
+				<div>
+					<h3>Follow Us</h3>
+					<a href="https://www.linkedin.com/in/tuk-bahadur-kumhal"><img class="circle" src="../icons/linkedin.png" alt="linkedin" width="5%" height="5%"></a>
+					<a href="#"><img class="circle" src="../icons/instagram.jpg" alt="instagram" width="5%" height="5%"></a>
+					<a href="#"><img class="circle" src="../icons/twitter.png" alt="twitter" width="5%" height="5%"></a>
+					<a href="https://www.facebook.com/tuk.kumhal"><img class="circle" src="../icons/facebook.png" alt="fb" width="5%" height="5%"></a>
+				</div>
+			</div>
+			<div class="middle_f">
+				<div>
+					<h3>We accept</h3>
+					<a href="#"><img class="circle" src="../icons/esewa.png" alt="esewa" width="5%" height="5%"></a>
+					<a href=""><img src="../icons/fonepay.jpg" alt="fonepay" width="5%" height="5%"></a>
+					<a href=""><img src="../icons/mastercard.png" alt="mastercard" width="5%" height="5%"></a>
+					<h2 style="color: gray;">&copy;Digital World</h2>
+				</div>
+			</div>
+			<div class="right_f">
+				<div>
+					<h3 style="text-align: center;font-size: 25px; color: black; font-weight: bold;">Contact Us</h3>
+					<table>
+						<tr>
+							<th>
+								<a href="#"><img class="circle" src="../icons/location.png" alt="location" width="15%" height="5%"></a>
+								<p style="color: black;">kamalpokhari, kathmandu</p>
+							</th>
+							<th>
+								<a href="#"><img class="circle" src="../icons/phone.png" alt="contact" width="15%" height="5%"></a>
+								<p style="color: black;">+9779867890123</p>
+							</th>
+							<th>
+								<a href="#"><img class="circle" src="../icons/mail.png" alt="email" width="15%" height="5%"></a>
+								<p style="color: black;">abc123@gmail.com.np</p>
+							</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Internal js for product-->
+	<script>
+		//image changing
+		var image = document.getElementById('image');
+		var images = ['../images/acer.jpg','../images/lenovo.jpg','../images/mac.jpg','../images/hp.jpg'];
+		setInterval(function() {
+			var random = Math.floor(Math.random() * 4);
+			image.src = images[random];
+		}, 1100);
+		//js for Search 
+		function form() {
+			var input = document.forms["formValidation"]["empty"].value;
+			var search = document.forms["formValidation"]["click"].value;
+			if (input=="" || search=="")
+			 {
+			 	alert("Under Maintainance");
+			 }
+			 else
+			 {
+			 	alert("Under Maintainance");
+			 }
+		}
+		//offer Ends(js)
+		function offer() {
+		const d = new Date();
+				document.getElementById('day').innerHTML = d.getDate();
+				document.getElementById('hour').innerHTML = d.getHours();
+				document.getElementById('minute').innerHTML = d.getMinutes();
+				document.getElementById('second').innerHTML = d.getSeconds();
+				setTimeout(offer,1000);	
+		}
+		offer();
+		//cart && buy
+		function buy() {
+			alert("Please Create Account before Buying Item");
+		}
+		function cart() {
+			alert("Items has been Added to Cart");
+		}
+	</script>
+</body>
+</html>

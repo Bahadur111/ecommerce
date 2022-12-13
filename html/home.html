@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="we provide latest electronic Gadgets with good customer serivce">
+	<meta name="keywords" content="Mobiles,Laptops,Routers,T.V,Digital Watch">
+	<meta name="author" content="Tuk Bahadur Kumhal">
+	<meta http-equiv="refresh" content="200">
+	<title>Home Page</title>
+	<!--external CSS form home page-->
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+</head>
+<body>
+	<div class="container">
+		<!--navigation bar-->
+		<div class="nav">
+			<ul>
+				<li><a class="selected" href="home.html">Home</a></li>
+				<li><a class="selected" href="products.html">Products</a></li>
+				<li><a class="selected" href="blog.html">Blog</a></li>
+				<li><a class="selected" href="research.html">Research</a></li>
+				<li><a class="selected" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<!--search content-->
+		<div class="search">
+			<form name="formValidation" onsubmit="form()" method="post">
+				<input type="text" name="empty" class="inpt" placeholder="search">
+				<input type="submit" name="click" class="srch" value="Search">
+			</form>
+		</div>
+		<!--Description about product-->
+		<div class="content">
+			<div class="content-text">
+				<span style="font-size: 22px; color: yellowgreen;"><h2>Latest Gadgets in Nepal</h2></span>
+				<p style="font-family: sans-serif; font-size: 18px; color: yellowgreen;">Nepal's  top Gadgets service Provider with greatest discount. Discount upto 15% in iPhone 13 Pro Max</p>
+			</div>
+			<div class="content-img">
+				<img src="../images/ip.jpg" width="500px" height="350px" alt="iphone">
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="left">
+				<div>
+					<h3>Follow Us</h3>
+					<a href="https://www.linkedin.com/in/tuk-bahadur-kumhal"><img class="circle" src="../icons/linkedin.png" alt="linkedin" width="5%" height="5%"></a>
+					<a href="#"><img class="circle" src="../icons/instagram.jpg" alt="instagram" width="5%" height="5%"></a>
+					<a href="#"><img class="circle" src="../icons/twitter.png" alt="twitter" width="5%" height="5%"></a>
+					<a href="https://www.facebook.com/tuk.kumhal"><img class="circle" src="../icons/facebook.png" alt="fb" width="5%" height="5%"></a>
+				</div>
+			</div>
+			<div class="middle">
+				<div>
+					<h3>We accept</h3>
+					<a href="#"><img class="circle" src="../icons/esewa.png" alt="esewa" width="5%" height="5%"></a>
+					<a href=""><img src="../icons/fonepay.jpg" alt="fonepay" width="5%" height="5%"></a>
+					<a href=""><img src="../icons/mastercard.png" alt="mastercard" width="5%" height="5%"></a>
+					<h2 style="color: gray;">&copy;Digital World</h2>
+				</div>
+			</div>
+			<div class="right">
+				<div>
+					<h3 style="text-align: center;font-size: 25px; color: black; font-weight: bold;">Contact Us</h3>
+					<table>
+						<tr>
+							<th>
+								<a href="#"><img class="circle" src="../icons/location.png" alt="location" width="15%" height="5%"></a>
+								<p style="color: black;">kamalpokhari, kathmandu</p>
+							</th>
+							<th>
+								<a href="#"><img class="circle" src="../icons/phone.png" alt="contact" width="15%" height="5%"></a>
+								<p style="color: black;">+9779867890123</p>
+							</th>
+							<th>
+								<a href="#"><img class="circle" src="../icons/mail.png" alt="email" width="15%" height="5%"></a>
+								<p style="color: black;">abc123@gmail.com.np</p>
+							</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--js for search -->
+	<script type="text/javascript">
+		function form() {
+			var input = document.forms["formValidation"]["empty"].value;
+			var search = document.forms["formValidation"]["click"].value;
+			if (input=="" || search=="")
+			 {
+			 	alert("Under Maintainance");
+			 }
+			 else
+			 {
+			 	alert("Under Maintainance");
+			 }
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+		body{
+			background-color: skyblue;
+		}
+		/*link css*/
+		a:hover{
+			color: yellow;
+		}
+		/*a:visited{
+			color: red;
+		}*/
+		a:active{
+			color: blue;
+		}
+		.topic{
+			text-align: center;
+			background-color: #91DFC9;
+			font-family: sans-serif;
+		}
+		/*form css*/
+		.feed{
+			padding-left: 38%;
+			color: brown;
+			font-size: 30px;
+			cursor: pointer;
+		}
+		.fm{
+			padding-left: 38%;
+		}
+		.fmspace{
+			padding: 15px;
+		}
+		/*textarea{
+			resize: none;
+		}*/
+		.btn{
+			width: 15%;
+			margin-left: 12%;
+			background-color: #db03fc;
+			color: white;
+			cursor: pointer;
+			margin-bottom: 30px;
+		}
+		/*footer css*/
+		.footer{
+			display: flex;
+			background-color: #42455a;
+			color: white;
+		}
+		.left{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.middle{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.right{
+			flex: 300px;
+		}
+		.circle{
+			border-radius: 50%;
+		}

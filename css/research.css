@@ -1,0 +1,100 @@
+
+		/*background image*/
+		body{
+			background-image: url(../images/research_bg.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		/*link css*/
+		a:hover{
+			color: yellow;
+		}
+		/*a:visited{
+			color: red;
+		}*/
+		a:active{
+			color: blue;
+		}
+		/*background image*/
+		.container{
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(../images/research_bg_container.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		/*nav css*/
+		.nav{
+			text-align: center;
+			background-color: #42455a;
+			padding: 5px;
+		}
+		.nav ul{
+			display: inline-flex;
+		}
+		.nav ul li{
+			list-style-type: none;
+			padding: 15px;
+			cursor: pointer;
+			font-size: 20px;
+			font-family: sans-serif;
+			color: white;
+		}
+		.selected{
+			text-decoration: none;
+			color: white;
+		}
+		.topic{
+			background-color: #f542ce;
+			text-align: center;
+			opacity: 0.6;
+		}
+		/*content css*/
+		.row{
+			display: flex;
+		}
+		.left_column{
+			flex: 550px;
+		}
+		.right_column{
+			flex: 550px;
+		}
+		.position{
+			margin-left: 25px;
+		}
+		.pic{
+			border-radius: 30px;
+			cursor: pointer;
+		}
+		.pgh{
+			font-family: sans-serif;
+			padding-left: 40px;
+			padding-right: 30px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+		/*footer css*/
+		.footer{
+			display: flex;
+			background-color: #42455a;
+			color: white;
+		}
+		.left{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.middle{
+			flex: 300px;
+			text-align: center;
+			color: black;
+			font-size: 20px;
+		}
+		.right{
+			flex: 300px;
+		}
+		.circle{
+			border-radius: 50%;
+		}

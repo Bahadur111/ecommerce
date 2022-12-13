@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="we provide latest electronic Gadgets with good customer serivce">
+	<meta name="keywords" content="Mobiles,Laptops,Routers,T.V,Digital Watch">
+	<meta name="author" content="Tuk Bahadur Kumhal">
+	<meta http-equiv="refresh" content="200">
+	<title>Contact Page</title>
+	<!--external css for contact-->
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<!--internal css for contatct-->
+	<style type="text/css">
+		.container{
+			/*bg image*/
+			width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+			background-image: url(../images/form.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		.nav{
+			/*nav*/
+			text-align: center;
+			background-color: #42455a;
+			padding: 5px;
+		}
+		.nav ul{
+			display: inline-flex;
+		}
+		.nav ul li{
+			list-style-type: none;
+			padding: 10px;
+			cursor: pointer;
+			font-size: 20px;
+			font-family: sans-serif;
+			color: white;
+		}
+		.selected{
+			/*remove underline*/
+			text-decoration: none;
+			color: white;
+		}
+		.search{
+			text-align: center;
+			background-color: #42455a;
+		}
+		.content{
+			/*background-color: white;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!--navigation bar-->
+		<div class="nav">
+			<!--date && time-->
+		<div>
+			<marquee><p id="clk" style="font-weight: bold; color: pink;"></p></marquee>
+		</div>
+			<ul>
+				<li><a class="selected" href="home.html">Home</a></li>
+				<li><a class="selected" href="products.html">Products</a></li>
+				<li><a class="selected" href="blog.html">Blog</a></li>
+				<li><a class="selected" href="research.html">Research</a></li>
+				<li><a class="selected" href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="topic">
+				<h1>How we may help you?</h1>
+			</div>
+			<div class="feed">
+				<h3><u>Feedback Form:</u></h3>
+			</div>
+			<!--form validation-->
+			<div class="fm">
+				<form name="formValidation" onsubmit="form()" method="post">
+					<div class="fmspace">
+						<label style="font-size: 20px; font-weight: bold;">Name:</label> &ensp;&ensp;<input type="text" name="fullname" placeholder="Full Name" >
+					</div>
+					<div class="fmspace">
+						<label style="font-size: 20px; font-weight: bold;">Address:</label><input type="text" name="address" placeholder="Address" >
+					</div>
+					<div class="fmspace">
+						<label style="font-size: 20px; font-weight: bold;">Contact:</label><input type="text" name="contact" placeholder="+97798....." >
+					</div>
+					<div class="fmspace">
+						<label style="font-size: 20px; font-weight: bold;">Email:</label>&ensp;&ensp;<input type="password" name="email" placeholder="Email" >
+					</div>
+					<div class="fmspace">
+						<label style="font-size: 20px; font-weight: bold;">Gender:</label>
+						<input type="radio" name="gender" value="Male" >
+						<label>Male</label>
+						<input type="radio" name="gender" value="female" >
+						<label>Female</label>
+						<input type="radio" name="gender" value="other" >
+						<label>Other</label>
+					</div>
+					<div class="fmspace">
+						<label style="font-size: 20px; font-weight: bold;">Message:</label>
+					</div>
+					<div class="fmspace">
+						<textarea rows="10px" cols="30px" placeholder="Your Message" name="message"></textarea>
+					</div>
+					<button type="submit" value="Submit" class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="left">
+				<div>
+					<h3>Follow Us</h3>
+					<a href="https://www.linkedin.com/in/tuk-bahadur-kumhal"><img class="circle" src="../icons/linkedin.png" alt="linkedin" width="5%" height="5%"></a>
+					<a href="#"><img class="circle" src="../icons/instagram.jpg" alt="instagram" width="5%" height="5%"></a>
+					<a href="#"><img class="circle" src="../icons/twitter.png" alt="twitter" width="5%" height="5%"></a>
+					<a href="https://www.facebook.com/tuk.kumhal"><img class="circle" src="../icons/facebook.png" alt="fb" width="5%" height="5%"></a>
+				</div>
+			</div>
+			<div class="middle">
+				<div>
+					<h3>We accept</h3>
+					<a href="#"><img class="circle" src="../icons/esewa.png" alt="esewa" width="5%" height="5%"></a>
+					<a href=""><img src="../icons/fonepay.jpg" alt="fonepay" width="5%" height="5%"></a>
+					<a href=""><img src="../icons/mastercard.png" alt="mastercard" width="5%" height="5%"></a>
+					<h2 style="color: gray;">&copy;Digital World</h2>
+				</div>
+			</div>
+			<div class="right">
+				<div>
+					<h3 style="text-align: center;font-size: 25px; color: black; font-weight: bold;">Contact Us</h3>
+					<table>
+						<tr>
+							<th>
+								<a href="#"><img class="circle" src="../icons/location.png" alt="location" width="15%" height="5%"></a>
+								<p style="color: black;">kamalpokhari, kathmandu</p>
+							</th>
+							<th>
+								<a href="#"><img class="circle" src="../icons/phone.png" alt="contact" width="15%" height="5%"></a>
+								<p style="color: black;">+9779867890123</p>
+							</th>
+							<th>
+								<a href="#"><img class="circle" src="../icons/mail.png" alt="email" width="15%" height="5%"></a>
+								<p style="color: black;">abc123@gmail.com.np</p>
+							</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--External js for form validation-->
+	<script type="text/javascript" src="../js/form.js"></script>
+</body>
+</html>
